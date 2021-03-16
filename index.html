@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Portfolio Site</title>
+    <meta name="description" content="Your Name のPortfolio Siteです。">
+    <meta property="og:title" content="Your Name Portfolio Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="images/meta/ogimage.jpg">
+    <meta property="og:site_name" content="Your Name Portfolio Site">
+    <meta property="og:description" content="Your Name のPortfolio Siteです。">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" href="images/meta/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/meta/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <ul class="Toplist">
+        <li></li><img class="TopGazou" src="img/Top1.jpg" alt="画像"></li>
+        <li></li><img class="TopGazou" src="img/Top2.jpg" alt="画像"></li>
+        <li></li><img class="TopGazou" src="img/Top3.jpg" alt="画像"></li>
+        <p class="">Helow, World!!</p>
+    </ul>
+
+    <header>
+        <h1 class="site-title">Your Name Portfolio Web</h1>
+
+        
+            <nav> 
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Hoby">Hoby</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+<main>
+<section id="About" class="profile">
+    <div class="profile-jibun">
+        <h2 class="text-center profile__title">About Me</h2>
+
+        <div class="text-center">
+            <img src="img/jibu.jpg" alt="コンドウトシキの画像" class="jibun profile__eyecatch">
+        </div>
+        <h3 class="text-center profile__name">Your Name is</h3>
+
+        <p class="profile__text">
+        現職は県庁にてヘルプデスク業務に携わっています。
+        また前職ではコンテンツモデレータとして働いていました。
+        ガジェット分野はかなり好きで自分でいろいろ調べて、
+        ノートPCをカスタマイズやオーバーホールしました。
+        Windows10が動かないような、古いPCにChrome OSをインストールして
+        サブPC化もしました。
+        </p>
+    </div>
+</section>
+
+<section id="Hoby__section">
+    <div class="Hoby">
+           
+        <h2 class="Hoby__title text-center">Hoby</h2>
+        
+        <ul>
+            <li>
+                <div class="Hoby__eyecatch">
+                    <img src="img/Apex.jpg" alt="Apexの画像">
+                </div>
+                <div class="Hoby__contents">
+                    <h3 class="Hoby__heading">Apex</h3>
+                    <p>友人とボイチャしながらゲームをしています。</p>
+                </div>
+            </li>
+            
+            <li>
+                <img src="img/sasimi.JPG" alt="海鮮丼の画像">
+                <h3>食べ歩き</h3>
+                <p>
+                おいしいものを食べに行くのが好きです。
+                孤独のグルメばりに一人飯してます。
+                <p>
+            </li>
+
+            <li>
+                <img src="img/PS5.JPG" alt="PS5の画像">
+                <h3>PS5当たりました！</h3>  
+                <p>11月12日の発売日にPS5購入できました。<p>
+            </li>
+        </ul>
+
+        <a class="btn text-center" href="#" target="_blank"　>写真をもっと見る</a>
+    </div>
+</section>
+
+<section id="Contact">
+    <h2>Contact</h2>
+
+    <form action="#" method="POST">
+        <dl>
+            <dt>お名前</dt>
+            <dd><input type="text" name="name" id="name" ></dd>
+            
+            <dt>メールアドレス</dt>
+            <dd><input type="email" name="email" id="email"></dd>
+            
+            <dt>お問い合わせ内容</dt>
+            
+            <dd>
+              <label for="maiking"> <input type="radio" name="kind" id="maiking" value="制作のご依頼">制作のご依頼 </label>
+              <label for="ivant">  <input type="radio" name="kind" id="ivant" value="イベント出演依頼">イベント出演依頼</label>
+              <label for="other">   <input type="radio" name="kind" id="other" value="その他">その他</label>
+            </dd>
+            
+         
+            <dt>お問い合わせ詳細</dt>
+            <dd>
+                <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+            </dd>
+        </dl>
+        <input type="submit" value="送信">
+    </form>
+    
+</section>
+</main>
+
+<footer>
+
+
+</footer>
+
+</body>
+</html>
