@@ -24,9 +24,9 @@
 </head>
 <body>
     <ul class="Toplist">
-        <li></li><img class="TopGazou" src="img/Top1.jpg" alt="画像"></li>
-        <li></li><img class="TopGazou" src="img/Top2.jpg" alt="画像"></li>
-        <li></li><img class="TopGazou" src="img/Top3.jpg" alt="画像"></li>
+        <li class="Topli"><img class="TopGazou" src="img/Top1.jpg" alt="画像"></li>
+        <li class="Topli"><img class="TopGazou" src="img/Top2.jpg" alt="画像"></li>
+        <li class="Topli"><img class="TopGazou" src="img/Top3.jpg" alt="画像"></li>
         <p class="">Helow, World!!</p>
     </ul>
 
@@ -63,13 +63,13 @@
     </div>
 </section>
 
-<section id="Hoby__section">
+<section id="Hoby__section" class="Hoby">
     <div class="Hoby">
            
         <h2 class="Hoby__title text-center">Hoby</h2>
-        
-        <ul>
-            <li>
+    
+        <ul class="Hoby__list">
+            <li class="Hoby__item">
                 <div class="Hoby__eyecatch">
                     <img src="img/Apex.jpg" alt="Apexの画像">
                 </div>
@@ -79,19 +79,29 @@
                 </div>
             </li>
             
-            <li>
-                <img src="img/sasimi.JPG" alt="海鮮丼の画像">
-                <h3>食べ歩き</h3>
-                <p>
-                おいしいものを食べに行くのが好きです。
-                孤独のグルメばりに一人飯してます。
-                <p>
+            <li class="Hoby__item">
+                <div class="Hoby__eyecatch">
+                    <img src="img/sasimi.JPG" alt="海鮮丼の画像">
+                </div>
+
+                <div class="Hoby__contents"></div>
+                    <h3 class="Hoby__heading">食べ歩き</h3>
+                    <p>
+                    おいしいものを食べに行くのが好きです。
+                    孤独のグルメばりに一人飯してます。
+                    <p>
+                </div>
+               
             </li>
 
-            <li>
-                <img src="img/PS5.JPG" alt="PS5の画像">
-                <h3>PS5当たりました！</h3>  
-                <p>11月12日の発売日にPS5購入できました。<p>
+            <li class="Hoby__item">
+                <div class="Hoby__eyecatch"></div>
+                    <img src="img/PS5.JPG" alt="PS5の画像">
+                </div>
+                <div class="Hoby__contents">
+                    <h3 class="Hoby__heading">PS5当たりました！</h3>  
+                    <p>11月12日の発売日にPS5購入できました。<p>
+                </div>
             </li>
         </ul>
 
@@ -102,7 +112,7 @@
 <section id="Contact">
     <h2>Contact</h2>
 
-    <form action="#" method="POST">
+    <form  method="POST" action="portfolio.php">
         <dl>
             <dt>お名前</dt>
             <dd><input type="text" name="name" id="name" ></dd>
