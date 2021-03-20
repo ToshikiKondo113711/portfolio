@@ -99,6 +99,19 @@ height: auto;
 .Hoby{
     max-width: 1140px;
     margin: auto;
+    padding: 80px 0;
+    border-color: #fff;
+}
+
+.Hoby__list{
+    display: flex;
+    margin: 0 0 64px;
+
+}
+.Hoby__item{
+
+width:33.333%
+
 }
 
 .Hoby__eyecatch{
@@ -108,6 +121,8 @@ height: auto;
 
 .Hoby__heading{
     margin: 0 0 16px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .Hoby__contents{
@@ -117,11 +132,19 @@ height: auto;
 
 .TopGazou{
 
-    max-width: 33%;
-    max-height: 33%;  
-    display: flex;
+    max-width: 100%;
+    max-height: 100%; 
     
 }
 
+.Toplist{
+    display: flex;
+   
+
+}
+.Topli{
+    width: 33.333%;
+    height: 100%;
+    
 /* 横並びレイアウトの記述 */
 
